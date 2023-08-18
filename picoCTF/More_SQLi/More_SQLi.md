@@ -38,7 +38,7 @@ I use the payload **Algiers' order by 4--** and no result returns -> The column 
 
 <img src = "img/img7.png">
 
-And with payload**Algiers' order by 3--** the result returns Algiers 
+And with payload **Algiers' order by 3--** the result returns Algiers -> 3 columns.
 
 <img src = "img/img8.png">
 
