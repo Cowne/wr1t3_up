@@ -30,7 +30,7 @@ This step is to make sure which payload is appropriate, rather we use brute forc
 <img src ="img/img8.png">
 And now, we found the flag.
 
-<img src ="img/img6.png>
+<img src ="img/img6.png">
 
 Damn bro, it's such an easy challenge right! :)))) 
 
