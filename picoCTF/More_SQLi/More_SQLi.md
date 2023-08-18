@@ -11,7 +11,7 @@ And we recieved this message
 
 <img src ="img/detect.png">
 
--> The login page contains SQLi. Use the payload: > ***1' or 1=1--*** to bypass the login form.
+-> The login page contains SQLi. Use the payload: `***1' or 1=1--***` to bypass the login form.
 
 <img src = "img/img3.png">
 
