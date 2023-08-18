@@ -27,7 +27,8 @@ You see the ***debug*** value is 0, what if we change it into 1?
 And booooom, we can see the syntax error -> we know how the input fetch in the query and we can use right payload to bypass.
 
 <img src ="img/img8.png">
-This step is to make sure which payload is appropriate, rather we use brute force. And we the payload above is correct.
+This step is to make sure which payload is appropriate, rather we use brute force. The payload above is correct.
+
 And now, we found the flag.
 
 <img src ="img/img6.png">
