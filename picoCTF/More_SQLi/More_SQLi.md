@@ -30,11 +30,16 @@ And with payload <mark>Algiers' AND 1=2--</mark> the result don't retune anythin
 
 -> The search field contains SQLi.
 Now we should detect how many column. And with my experience, how many columns you see appear, it is most likely the number of columns you need to find.
+
 <img src = "img/img6.png">
+
 In here, we see that it appear 3 column, so maybe the number of columns could be 3.
 I use the payload ==Algiers' order by 4--== and no result returns -> The column number < 4.
+
 <img src = "img/img7.png">
+
 And with payload ==Algiers' order by 3--== the result returns Algiers 
+
 <img src = "img/img8.png">
 
 And now, we will extract the information.
@@ -45,16 +50,21 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/
 The first thing we extract is how many tables and name of them. So I use the payload ==Algiers' UNION SELECT (SELECT group_concat(tbl_name) FROM sqlite_master WHERE type='table' and tbl_name NOT like 'sqlite_%'),NULL, NULL --== 
 
 <img src = "img/img10.png">
+
 And we can see the list tables in the database. Now we want to extract columns in each tables.
 the payload ==SELECT sql FROM sqlite_master WHERE type!='meta' AND sql NOT NULL AND name ='table_name'== help us to do this and we have the payload like this ==Algiers' UNION SELECT (SELECT sql FROM sqlite_master WHERE type!='meta' AND sql NOT NULL AND name ='hints'),NULL, NULL --== 
 The above payload will extract the columns of ==hints== table.
+
 <img src = "img/img11.png">
+
 With a little bit logic, we can guest that the ==hints== table has 2 columns ID and info.
 
 You can repeat it until you see the ==flag== column.
 And you want to extract the value of the column, use this payload ==Algiers' UNION SELECT flag,NULL, NULL from <name_of_the_table> --==
+
 <img src ="img/flag.png">
-Congrat, you found the flaggggg.
+
+Congrats, you found the flaggggg.
 
 THANK YOU FOR LEARNING GUYS.
 PATIENCE IS THE KEY, SO KEEP TRYING EVERYDAY. LUV U <3
