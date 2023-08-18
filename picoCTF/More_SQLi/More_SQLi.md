@@ -1,19 +1,31 @@
 ##CHALLENGE: MORE SQLi
+
 <img src ="img/img1.png">
 
 In here, we see the log in page,
+
 <img src ="img/img2.png">
- so I think we can use the single quote (') to detect the login form does have SQLi or not.
+
+so I think we can use the single quote (') to detect the login form does have SQLi or not.
 And we recieved this message
+
 <img src ="img/detect.png">
+
 -> The login page contains SQLi. Use the payload ==1' or 1=1--== to bypass the login form.
+
 <img src = "img/img3.png">
+
 And welcome to the page :))))
+
 <img src = "img/welcome.png">
+
 But I don't see the flag anywhere, so I decide to test the search field.
 With the payload  <mark>Algiers' AND 1=1--</mark> we can see the result still have Algiers.
+
 <img src = "img/img4.png">
+
 And with payload <mark>Algiers' AND 1=2--</mark> the result don't retune anything.
+
 <img src = "img/img5.png">
 
 -> The search field contains SQLi.
