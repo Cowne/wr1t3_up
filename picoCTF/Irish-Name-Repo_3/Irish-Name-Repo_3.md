@@ -16,7 +16,7 @@ In the request, we can see the `debug` parameter, let's send it to Repeater and 
 
 <img src ="img/img4.png">
 
-Ah ha, the enter `admin' or 1=1--` but the query is change `nqzva' be 1=1--` -> I guess the password field is encrypted.
+Ah ha, we enter `admin' or 1=1--` but the query is change `nqzva' be 1=1--` -> I guess the password field is encrypted.
 And the hint says the same
 
 <img src = "img/img5.png">
