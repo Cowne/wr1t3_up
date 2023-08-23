@@ -32,7 +32,7 @@ Rồi dán payload vào trang thôi.
 
 Sau khi dán vào thì mọi người sẽ có 1 pop-up hiện ra. Nhưng không cần quan tâm lắm.
 Mọi người mở lại tab ```Collaborator Client``` của Burp Suite, và sẽ thầy kết quả, chúng ta chú ý đến type HTTP thay vì DNS.
-Nếu không có kết quả thì nhấn Poll now hoặc kiểm tra lại payload.
+Nếu không có kết quả thì nhấn ```Poll now``` hoặc kiểm tra lại payload.
 Click vào type HTTP và chuyển sang mục ```Request to Collaborator``` và flag xuất hiện.
 
 <img src="img/img6.png">
