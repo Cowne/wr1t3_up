@@ -34,7 +34,7 @@ Có vẻ hơi mệt nhưng thật ra khá là dễ để bypass chỉ cần thê
 
 <img src="img/img6.png">
 
-Tèn ten, đã giải xong bài. Một challenge hay ho và học được nhiều điều. Nếu bạn không biết sử dụng [ngrok]<https://ngrok.com/> thì cứ vào web này, một tool khá hay ho hoặc bạn có thể lên youtube tìm kiếm.
+Tèn ten, đã giải xong bài. Một challenge hay ho và học được nhiều điều. Nếu bạn không biết sử dụng [ngrok](https://ngrok.com/) thì cứ vào web này, một tool khá hay ho hoặc bạn có thể lên youtube tìm kiếm.
 
 ## THANK YOU FOR LEARNING, GUYS
 
